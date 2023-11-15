@@ -54,3 +54,8 @@ function ola(nome, tempo) {
         console.log(nome)
     }, tempo)
 }
+function ola(nome, tempo) {
+    setTimeout(() => {
+        console.log(nome)
+    }, tempo)
+}
