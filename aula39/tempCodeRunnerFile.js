@@ -1,0 +1,2 @@
+
+function gerarNumeros(min, max) {

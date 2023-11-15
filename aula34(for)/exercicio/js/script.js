@@ -1,0 +1,1 @@
+algumaVariavelOuConstante.document.appendChild()
