@@ -1,0 +1,5 @@
+<%  %> - controle de fluxo (for, if...)
+<%=  %> - imprime escapando caracteres
+<%-  %> - imprime sem escapar caracteres
+<%#  %> - comnetario
+<% include('caminho/arquivo) %> - incluir um arquivo
