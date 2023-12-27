@@ -33,6 +33,7 @@ const sessionOptions = session({
     resave: false,
     saveUninitialized: false,
     cookie: {
+        
         //Isso corresponde que via ficar salvo 7 dias na base de dados:
         maxAge: 1000 * 60 * 60 * 24 * 7,
         httpOnly: true
