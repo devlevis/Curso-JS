@@ -32,3 +32,4 @@ function renderizaDados(dados) {
     dados.forEach(valor => console.log(valor));
 }
 lerArquivo(caminhoArquivo)
+console.log(lerArquivo())

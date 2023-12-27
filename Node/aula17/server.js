@@ -32,8 +32,7 @@ const sessionOptions = session({
     store: MongoStore.create({mongoUrl: process.env.CONNECTIONSTRING}),
     resave: false,
     saveUninitialized: false,
-    cookie: {
-        
+    cookie: { 
         //Isso corresponde que via ficar salvo 7 dias na base de dados:
         maxAge: 1000 * 60 * 60 * 24 * 7,
         httpOnly: true
