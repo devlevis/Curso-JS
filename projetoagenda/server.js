@@ -4,7 +4,7 @@ const express = require('express')
 const app = express()
 const mongoose = require('mongoose')
 
-//Mongoose serve para administrar o banco de dados:
+//Mongoose serve para administrar o banco de dados
 //Aqui estou conectando com a base de dados:
 mongoose.connect(process.env.CONNECTIONSTRING)
 .then(() => {
@@ -47,6 +47,7 @@ app.set('views', './src/views')
 app.set('view engine', 'ejs')
 
 app.use(csurf())
+
 //Nossos propios midllewares:
 app.use(middlewareGlobal)
 app.use(checkCsrfError)
