@@ -23,5 +23,9 @@ module.exports = {
             use: ['style-loader', 'css-loader']
         }]
     },
+    performance: {
+        maxEntrypointSize: 512000,
+        maxAssetSize: 512000
+    },
     devtool: 'source-map'
 }
